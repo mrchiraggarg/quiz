@@ -1,4 +1,5 @@
 import React from 'react'
+import AboutImg from "../assets/wowlogo.png";
 
 const AboutUs = () => {
 
@@ -6,7 +7,7 @@ const AboutUs = () => {
 		<div className="container px-4 px-lg-5" >
 		<div className="row mb-5" >
 			<div className="col-md-6" >
-				<img src="about-us.jpg"  style={{width:'100%',height:'75vh',objectFit:'cover'}}/>
+					<img src="{AboutImg}"  style={{width:'100%',height:'75vh',objectFit:'cover'}}/>
 			</div>
 			<div className="col-md-6 pt-5">
 				<h1  style={{fontWeight:' 700',fontSize: '50px'}}>About Us</h1>
